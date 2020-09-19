@@ -34,7 +34,7 @@ const desafio1 = (archivoComoString) =>{
     let lineaPorLinea = archivoComoString.split(/\r?\n/);
 
     // aplico funciones a archivo leido
-    tiempoVideoReduxAcumulado = lineaPorLinea
+    let tiempoVideoReduxAcumulado = lineaPorLinea
         .filter(filtroRedux)
         .map(parseoTiempo)
         .reduce(acumularTiempo);

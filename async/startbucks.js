@@ -30,7 +30,7 @@ pedidoStartbucks(pedido1, pedido => {
 });
 
 pedidoStartbucks(pedido2, pedido => {
-    console.log(`${pedido2.tipo} esta listo, llamar a ${pedido2.cliente}`);
+    console.log(`${pedido2.tipo} esta listo, llamarte a ${pedido2.cliente}`);
 });
 
 console.log('PEDIDOS STARTBUCKS ');
